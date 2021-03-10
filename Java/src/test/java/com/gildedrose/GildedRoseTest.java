@@ -127,10 +127,10 @@ class GildedRoseTest {
     @Test
     void should_quality_never_be_less_than_0(){
 
-        Item[] items = new Item[] { new Item("Aged Tree", 8, 0)};
+        Item[] items = new Item[] { new Item("Aged Brie", 8, 0)};
         GildedRose app = new GildedRose(items);
         app.updateQuality();
-        assertEquals(0, app.items[0].quality);
+        assertEquals(1, app.items[0].quality);
         assertEquals(7, app.items[0].sellIn);
     }
 
@@ -144,5 +144,11 @@ class GildedRoseTest {
         assertEquals(-1, app.items[0].sellIn);
     }
 
-    
+    @Test
+    void agedBrie_sellIn_Equals_0(){
+        Item[] items = new Item[] { new Item("Aged Brie", 0, 5)};
+        GildedRose app = new GildedRose(items);
+        app.updateQuality();
+        assertEquals(7, app.items[0].quality);
+    }
 }
