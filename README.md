@@ -7,18 +7,24 @@
 * Matthew Parker
 * Dickson Diku
 
+## Language Used
+We worked out of the Java folder. All code changes are located there.
+
 ## Mob Session 1: Test Scripts
 [Link to Microsoft Stream Video](https://web.microsoftstream.com/video/dcf1af27-1af4-4323-980e-8dfe72f20277)
-
-## Test Results
-![image](https://user-images.githubusercontent.com/55102379/110715285-ee88f380-81d2-11eb-8386-72c259f1434a.png)
-
-## Coverage Results
-![image](https://user-images.githubusercontent.com/55102379/110715401-2bed8100-81d3-11eb-83d8-0740fb6eaeb7.png)
 
 ## Mob Session 2: Refactoring and Conjured Feature
 [Link to Microsoft Stream Video](https://web.microsoftstream.com/video/08d6590d-8148-47e2-817b-0f1c3551c843)
 
+## Test Results
+![image](https://user-images.githubusercontent.com/55102379/110715285-ee88f380-81d2-11eb-8386-72c259f1434a.png)
+
+## Code Coverage
+![image](https://user-images.githubusercontent.com/55102379/110715401-2bed8100-81d3-11eb-83d8-0740fb6eaeb7.png)
+
+
+
+---
 
 # Gilded Rose Refactoring Kata
 
